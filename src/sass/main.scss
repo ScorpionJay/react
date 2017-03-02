@@ -1,0 +1,162 @@
+@import "./slider";
+@import "./common";
+@import "./inverst";
+@import "./more";
+@import "./assert";
+@import "./me";
+@import "./faq";
+
+* {
+    box-sizing: initial;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+html {
+	height:100%;
+	background-color: #515363;
+}
+body {
+	height:100%;
+	margin:0 auto;
+	max-width:680px;
+	padding:0;
+	background-color: #f6f6f6;
+	min-width:320px;
+	font-family: Helvetica,Arial,"Microsoft YaHei","Droid Sans",sans-serif;
+	box-shadow: 0 0 160px 0 #5c99e7;
+}
+
+html,body {
+ 	font-size:18px;
+ }
+
+@media screen and (max-width:800px){
+ html,body {
+ 	font-size:16px;
+ }
+}
+@media screen and (max-width: 680px){
+ html,body {
+ 	font-size:14px;
+ }
+}
+
+@media screen and (max-width: 375px){
+ html,body {
+ 	font-size:12px;
+ }
+}
+
+
+.root,#root,.nav,.content {
+	display:flex;
+	flex-direction:column;
+	height: 100%;
+}
+
+.main {
+	display:flex;
+	flex-direction:column;
+	overflow-y: auto;
+	flex:1;
+	height:100%;
+    overflow-x: hidden;
+    -webkit-overflow-scrolling:touch;
+}
+
+.tab {
+	display:'flex';
+	flex-direction:'column';
+	overflow-y: 'auto';
+	flex:1;
+	height:'100%';
+    overflow-x: 'hidden'
+}
+
+.touch {
+	overflow-y: auto;
+	overflow-x: hidden;
+	width:100%;
+	-webkit-overflow-scrolling:touch;
+}
+
+a {
+	text-decoration: none;
+	color: #333
+}
+
+.slick-slide img {
+    display: block;
+    width:100%;
+    max-width: 100%;
+    height: auto;
+}
+
+
+nav a {
+	color:#787878;
+
+}
+.active {
+	color:#FF7460
+}
+
+nav a span {
+    width: 25px;
+    height: 25px;
+    margin: 5px auto 0px auto;
+    display: block;
+    background-image: url(../images/icon_navbar.png);
+    background-position: 0px 0px;
+    background-repeat: no-repeat;
+    background-size: 50px;
+}
+
+@for $i from 1 to 4 {
+	  nav a:nth-child(#{$i}) span { 
+	  	background-position: 0px -25*($i - 1)+px; 
+	  }
+
+	  nav a:nth-child(#{$i}).active span { 
+	  	background-position: -25px -25*($i - 1)+px; 
+	  }
+}
+
+.features {
+	display:flex;
+	justify-content: space-between;
+	margin: 0 0 10px 0;
+    background-color: #fff;
+    border-bottom: solid 1px #e1e1e1;
+    padding: 15px 0px;
+
+
+	li {
+		display:flex;
+		list-style: none;
+		justify-content: center;
+		flex:1;
+
+		i {
+			display: block;
+		    margin: 0px auto 7px auto;
+		    background-image: url(../images/features.png);
+		    background-position: center 0px;
+		    background-repeat: no-repeat;
+		    background-size: 35px auto;
+		    width: 35px;
+		    height: 35px;
+		}
+	}
+
+	// 循环
+	@for $i from 2 to 5 {
+	  li:nth-child(#{$i}) i{ 
+	  	background-position: center -35*($i - 1)+px; 
+	  }
+	}
+
+	div {
+			color:#333;
+	}
+}

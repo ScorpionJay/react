@@ -1,0 +1,21 @@
+{
+  "slider":[
+    {
+    	"link":"https://github.com",
+    	"img":"https://static.lufaxcdn.com/wcm-images/5GbQZmvn0OKbrgQ80IeMqA.png"
+    },
+    {
+    	"link":"https://github.com",
+    	"img":"https://static.lufaxcdn.com/wcm-images/mtPTXc8HCQIVSdbI-p3Ujw.png"
+    },
+    {
+    	"link":"https://github.com",
+    	"img":"https://static.lufaxcdn.com/wcm-images/0y44GG-RHYJmEHx6UFqIwQ.png"
+    }
+  ],
+  "product":{
+  	"name":"基金1",
+  	"rate":"10",
+  	"term":"2个月"
+  }
+}

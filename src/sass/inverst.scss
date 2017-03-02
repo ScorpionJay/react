@@ -1,0 +1,92 @@
+.inverstItem {
+	color: red;
+	margin-bottom: 1rem;
+	display: flex;
+	flex-direction: column;
+	background-color: #fff;
+	padding: 1rem 0;
+
+	.up {
+		display: flex;
+		justify-content: space-between;
+		padding: 0rem 1rem .2rem 1rem;
+		border-bottom: 1px solid #D7D7D7;
+
+		.name {
+			font-size: 1.2rem;
+			color: #525252;
+		}
+
+		.desc {
+			font-size: 1rem;
+			color: #B3B3B3;
+		}
+
+		
+	}
+
+	.down {
+		display: flex;
+		justify-content: space-between;
+		padding: .5rem 1rem .2rem 1rem;
+
+		.left {
+			display: flex;
+			flex:1;
+			align-items: center;
+			.icon {
+				width: 40px;
+				height: 40px;
+				background-repeat: no-repeat;
+    			background-size: 40px;
+				background-image: url(../images/inverst.png);
+				margin-right:2rem;
+			}
+
+			.U优宝 {
+				background-position: 0px -40px;
+			}
+			.定期宝 {
+				background-position: 0px -80px;
+			}
+			.活期宝 {
+				background-position: 0px -120px;
+			}
+			.体验宝 {
+				background-position: 0px -160px
+			}
+
+			.rate {
+				color: #FF7864;
+				font-size: 1.3rem;
+				margin-top: 1rem;
+				margin-bottom: 1rem;
+			}
+		}
+
+		.right {
+			display: flex;
+			flex:1;
+			justify-content: space-between;
+			align-items: center;
+
+			.left {
+				display: flex;
+				flex-direction: column;
+				padding-left: 1rem;
+
+				.term {
+					color: #8B8B8B;
+					font-size: 1.3rem;
+					margin-top: 1rem;
+					margin-bottom: 1rem;
+				}
+			}
+		}
+
+		.text {
+			font-size: .8rem;
+			color: #B3B3B3;
+		}
+	}
+}

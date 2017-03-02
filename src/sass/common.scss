@@ -1,0 +1,20 @@
+.arrow-right {
+	border-top:1px solid #D1D1D1;
+    border-left:1px solid #D1D1D1;
+    width: 10px;
+    height: 10px;
+    display: block;
+    margin: 5px;
+    transform: rotate(135deg); 
+}
+
+
+.arrow-left {
+	border-top:2px solid #fff;
+    border-left:2px solid #fff;
+    width: 15px;
+    height: 15px;
+    display: block;
+    margin: 15px 10px;
+    transform: rotate(-45deg); 
+}

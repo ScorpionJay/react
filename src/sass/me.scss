@@ -1,0 +1,51 @@
+.me {
+
+	.item {
+		display: flex;
+		justify-content: space-between;
+		align-items:center;
+		background-color: #fff;
+		padding: .8rem;
+		margin-top: 1rem;
+		border-top: 1px solid #D4D4D4; 
+		border-bottom: 1px solid #D4D4D4; 
+
+		.left {
+			display: flex;
+			align-items:center;
+		}
+
+		.icon {
+		    background-image: url(../images/me.png);
+		    background-position: 0px 0px;
+		    background-repeat: no-repeat;
+		    background-size: 24px;
+		    display: block;
+		    float: left;
+		    height: 24px;
+		    width: 24px;
+		}
+
+		.icon1 {
+			background-position: 0px -96px;
+		}
+		.icon2 {
+			background-position: 0px -48px;
+		}
+		.icon3 {
+		    background-position: 0px -72px;
+		}
+
+		.leftText {
+			margin-left: .6rem;
+			font-size: 1.2rem;
+			color: #3F3F3F;
+		}
+
+		.right {
+			display: flex;
+			align-items:center;
+		}
+
+	}
+}

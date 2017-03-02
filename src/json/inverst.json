@@ -1,0 +1,17 @@
+{
+	"code": 0,
+	"msg": "ok",
+	"data": [{
+		"type": "tyb",
+		"yearRate": "10.00",
+		"productType": "体验宝",
+		"productDesc": "哈哈哈",
+		"typeTerm": "1年"
+	}, {
+		"type": "uub",
+		"yearRate": "12.00",
+		"productType": "U优宝",
+		"productDesc": "好多钱",
+		"typeTerm": "1个月"
+	}]
+}

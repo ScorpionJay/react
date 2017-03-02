@@ -1,0 +1,62 @@
+.more{
+
+	.item {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding: .5rem;
+		background-color: #fff;
+		margin-bottom: .8rem;
+
+
+		.left {
+			display: flex;
+			align-items: center;
+
+			.icon {
+				background-image: url(../images/more.png);
+			    background-position: 0px 0px;
+			    background-repeat: no-repeat;
+			    background-size: 24px;
+			    display: block;
+			    float: left;
+			    height: 24px;
+			    width: 24px;
+			    margin-top: 4px;
+			    margin-right: 12px;
+			}
+
+			@for $i from 1 to 7 {
+				  .icon#{$i}{ 
+				  	background-position: 0px -25*($i - 1)+px; 
+				  }
+			}
+
+			.icon5{
+			    background-position: 0px -96px;
+			}
+
+			.text {
+				color: #353535;
+				font-size: 1rem;
+			}
+
+		}
+
+		.tel {
+			color: #FF7561;
+			font-size: 1rem;
+		}
+	}
+
+
+	.btn {
+		background-color: #FF7460;
+		color: #fff;
+		line-height: 3rem;
+		font-size: 1.2rem;
+		margin: 1rem;
+		border-radius: 1.3rem;
+		text-align: center;
+	}
+}
