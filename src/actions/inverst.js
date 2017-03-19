@@ -32,7 +32,7 @@ export function inverstListApi(index){
     fetch(Config.inverstApi,{
       //mode: "cors",// 跨域
           headers:h,
-          method: 'POST'
+          method: 'get'
     })
 
 

@@ -3,6 +3,7 @@
 // import 'antd/dist/antd.css'
 import './sass/main.scss'
 // import $ from 'jquery'
+require("babel-polyfill");
 
 import React, {Component} from 'react'
 import { render } from 'react-dom'

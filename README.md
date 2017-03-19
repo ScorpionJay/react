@@ -93,3 +93,12 @@ https://www.npmjs.com/package/optimize-css-assets-webpack-plugin
 [webpack升级](https://webpack.js.org/guides/migrating/)
 
 [入门webpack](http://web.jobbole.com/87408/)
+
+
+
+## es7
+ npm install --save-dev babel-preset-stage-3 --save-dev
+
+使用es7的async await  需要引入 babel-polyfill （太大？？？）
+
+压缩怎么没之前小了？？？
