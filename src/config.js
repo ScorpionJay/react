@@ -4,7 +4,7 @@ let Config = {}
 
 if (process.env.NODE_ENV === 'production') {
   Config = {
-    loginUrl:serviceUrl,
+    loginUrl:'/api/uaa/oauth/token',
   	homeAPI:'http://onejay.top/json/home.json',
     // inverstApi:'./json/inverst.json',
     inverstApi:serviceUrl+'/inverst',
@@ -14,7 +14,7 @@ if (process.env.NODE_ENV === 'production') {
   }
 }else{
   Config = {
-    loginUrl:serviceUrl,
+    loginUrl:'/api/uaa/oauth/token',
   	homeAPI:'./json/home.json',
     //inverstApi:'./json/inverst.json',
     inverstApi:serviceUrl+'/inverst',
