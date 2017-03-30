@@ -16,11 +16,14 @@
 # how to run
 
 ~~~
+
+前提 node 7
+
 // 安装依赖
 npm install
 
 安装node-sass可能会有问题，从新安装
-npm install node-sass@3.13.0 --save-dev
+npm install node-sass@4.5.1 --save-dev
 
 // 运行开发环境 
 npm strat
